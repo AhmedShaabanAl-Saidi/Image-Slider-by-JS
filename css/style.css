@@ -1,0 +1,39 @@
+.img-slider img {
+  height: 21.875rem;
+  object-fit: cover;
+}
+
+.slider-items {
+  position: relative;
+}
+
+.slider-content {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  width: 90%;
+  transform: translate(-50%);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#light-box-container {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#light-box-item {
+  width: 50%;
+  height: 70vh;
+  background-image: url(../img/1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* #cursor{
+  position: absolute;
+  width: 20px;
+  z-index: 999;
+}
+
+html{
+  cursor: none;
+} */
